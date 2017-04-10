@@ -1,16 +1,22 @@
 #include <iostream>
-
 using namespace std;
+
+class MyClass{
+	public:
+		void coolSaying(){
+			cout << "preaching to choir" << endl;		
+		}
+};
 
 int main () 
 {
-	int a = 98;
- 	int b = 76;
-
-	 if (a > b){
-	 	cout << "Bro is AWSOME!!!!";
-	 }
-	
+	MyClass myObject;
+	myObject.coolSaying();
 	return 0;	
 }
+
+
+
+
+
 
